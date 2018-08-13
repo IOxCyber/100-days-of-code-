@@ -1,7 +1,8 @@
-#when you want to create more than one object of the same type.
-#this isn't a variable , it's a keyword that hold the current obj value.
-#new is keyword that use for creating the new object of the same type.
-
+/*
+-we use the keyword "function" when you want to create more than one object of the same type.
+-his isn't a variable , it's a keyword that hold the current obj value.
+-new is keyword that use for creating the new object of the same type.
+*/
 
 function person(name, age, color) {
   this.name = name;  
