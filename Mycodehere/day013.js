@@ -25,6 +25,6 @@ document.write(p.age);
 /* output
 John31
 
-exlaination : we have defined a method named changeName for our person, which is a function, 
+explanation : we have defined a method named changeName for our person, which is a function, 
 that takes a parameter name and assigns it to the name property of the object. 
 this.name refers to the name property of the object. */
