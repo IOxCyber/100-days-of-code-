@@ -1,0 +1,29 @@
+<html>
+    <body>
+         <div id ="demo">
+            <h1>Hello</h1>
+            <p>Programmers</p>
+        </div>
+        <script>
+            function changeText() {
+    var a = document.getElementById("demo");
+     var arr = a.childNodes;
+     for(var x=0;x<arr.length;x++) 
+     
+       arr[x].innerHTML = "Text has Changed Now";
+
+}
+
+setTimeout(changeText, 5000);
+
+/* It'll change the content of ID having name "demo".
+ SetTimeout() function will change the content after a 5 second.
+
+ ChildNodes returns an array of an element's child nodes like div's <p> tag.
+
+*/
+
+            
+        </script>  
+    </body>
+</html>
