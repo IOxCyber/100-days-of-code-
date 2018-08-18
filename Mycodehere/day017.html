@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Page Title</title>
+    </head>
+    <body>
+        <div id="demo">some content</div>
+    </body>
+    <script>
+        //calling the function in window.onload to make sure the HTML is loaded
+window.onload = function() {
+    //creating a new paragraph
+    var p = document.createElement("p");
+    var node = document.createTextNode("Some new text");
+    //adding the text to the paragraph
+    p.appendChild(node);
+4
+    var div = document.getElementById("demo");
+    //adding the paragraph to the div
+    div.appendChild(p);
+};
+
+
+/*
+1. element.cloneNode() clones an element and returns the resulting node.
+2. document.createElement(element) creates a new element node. 
+3. document.createTextNode(text) creates a new text node. 
+4. element.appendChild(newNode) adds a new child node to an element as the last child node.
+*/        
+    </script>
+</html>
