@@ -1,0 +1,32 @@
+<!--Form Validation-->
+
+<form onsubmit="return validate()" method="post">
+<!--There are two methods when send info through the form i.e Post & Get,we used Post coz Post provide more security then Get-->
+
+<!--Here we call validate function when User
+will Press submit button & validate  function
+will check validity of user provided info-->
+
+    Number: <input type="text" name="num1" id="num1" /><br />
+    Repeat: <input type="text" name="num2" id="num2" /><br />
+    <input type="submit" value="Submit" />
+    
+    <script>
+        
+      function validate() {
+    var n1 = document.getElementById('num1');
+    var n2 = document.getElementById('num2');
+    if(n1.value != '' && n2.value != '') { 
+        if(n1.value == n2.value) {
+            return true;
+        }
+/* We are checking here that the value that user entered is equal or not */
+    }
+    alert("The values should be equal and not blank");
+    return false;
+} 
+    </script>
+</form>
+
+<!-- Output
+It'll show two Input field to enter same values along with a submit button-->
