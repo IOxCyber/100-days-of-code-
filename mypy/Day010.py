@@ -35,5 +35,4 @@ else:
         else: 
             print("Number isn't 5, 11 or 7")
 
-#output 
-#Number is 7
+
