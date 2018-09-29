@@ -1,3 +1,5 @@
 ##Start Learning PHP
-#goals to end up in a week
-##you can learn from here. click here[https://www.learn-php.org]
+#Goals to end up in a week
+#you can learn from here. 
+[Learn PHP](https://www.learn-php.org)
+[Solo Learn](https://www.sololearn.com/Course/PHP/)
