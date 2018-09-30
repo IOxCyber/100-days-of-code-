@@ -33,6 +33,6 @@ else:
         if num == 7:
             print("Number is 7")
         else: 
-            print("Number isn't 5, 11 or 7")
+            print("Number isn't 5, 11 or 7 or anything else!")
 
 
