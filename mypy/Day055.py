@@ -10,3 +10,4 @@ print(var[3:8])
 print(var[ :9]) #here I've omitted the 1st value by default it included all till (last-1).
 print(var[0:1])
 print(var[0: ]) #on omitting last index's value,print entire list elements. 
+print(var[0::2]) #List slices can also have a third number, representing the step, to include only alternate values in the slice.
