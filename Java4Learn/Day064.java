@@ -1,0 +1,14 @@
+import java.util.Scanner;
+class input {
+    public static void main(String[ ] args) {
+        Scanner myVar = new Scanner(System.in);
+
+        //System.out.println(myVar.nextByte()); //takes only value in base of 10.
+        //System.out.println(myVar.nextDouble()); //can take value in double.
+        //System.out.println(myVar.nextLine()); //takes any typed value & print it in line.
+        //System.out.println(myVar.nextFloat()); //can also take float value.
+        //System.out.println(myVar.nextInt()); //takes only value in Integers.
+        System.out.println(myVar.nextBoolean()); //takes only true or false.
+    
+    }
+}
