@@ -1,3 +1,5 @@
+//Program1
+
 import java.util.Scanner;
 class input {
     public static void main(String[ ] args) {
@@ -11,4 +13,16 @@ class input {
         System.out.println(myVar.nextBoolean()); //takes only true or false.
     
     }
+}
+
+
+//Program2
+
+import java.util.Scanner; //import Scanner class from java.util package.
+class test {
+   public static void main(String[ ] args) {
+      Scanner  sc = new Scanner(System.in); //created instance of scanner class i.e object.
+      String st = sc.nextLine();
+      System.out.println(st);
+     }
 }
