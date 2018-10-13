@@ -26,3 +26,22 @@ class test {
       System.out.println(st);
      }
 }
+
+
+public class main3{
+public static void main(String[]myargs){
+main4 x=new 
+System.out.println
+result();
+
+}
+
+}
+
+public class main4{
+int x;
+int y;
+public int result(int x,int y){
+return x+y;
+}
+}
