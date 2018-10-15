@@ -1,0 +1,21 @@
+<?php
+$name = $_POST['Username'];
+$pwd = $_POST['Pwd'];
+if(isset($_SESSION['Username'])){
+header("location:echo.php");
+}
+?>
+
+
+
+<html>
+<body>
+<div align="center">
+<form method="post" action="blank">
+Username:<input type="text" name="Username"><br>
+Password:<input type="text" name="Pwd"><br>
+<input name="submit" type="submit" value="Login">
+</form>
+</div>
+</body>
+</html>
