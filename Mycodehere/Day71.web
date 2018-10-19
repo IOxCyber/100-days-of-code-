@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>Page Title</title>
+    </head>
+    <body>
+        <div width="100%" align="center" margin="auto">
+    <fieldset id="fs" align="center" class="gradient">     
+    <legand>Calculator</legand>
+    <table >
+    <tr>
+    <td>
+    Enter 1st Number:<input id="num1" placeholder="Number" required>
+    </td>
+    </tr>
+    <tr>
+    <td>
+    Enter 2nd Number:<input id="num2" placeholder="Number" required>
+    </td>
+    </tr>
+    <tr>
+    <td>
+    Outputs:<output id="out">
+    </td>
+    </tr>
+    <tr>
+    <td><br>
+     Enter Operation:<select id="selc">              
+                     <option>Divide</option>
+                     <option>Addition</option>
+                     <option>Subtract</option>
+                     <option>Modulo</option>
+                     <option>Multiply</option>
+                     </select>
+    </td>
+    </tr>
+    <tr>
+    <td>
+    <button onclick="calc()" style="background-color:Skyblue;">calc</button>
+    </td>
+    </tr>
+    </table>    
+    </fieldset>
+    </div>
+    <p id="par"></p>
+    </body>
+</html>
+
+
+
+
+
+
+//css <link href="file.css> </link>
+
+#fs {
+width:200px;
+    
+}
+
+body{
+    background:linear-gradient(yellow, green 90%);
+}
+
+.gradient {
+background: linear-gradient(skyblue , yellow 100%); 
+}
+
+
+
+//JS <script src="file.js"></script>
+
+function calc() {
+    var result;
+    var choice = document.getElementById("selc").value;
+    var a = document.getElementById("num1").value;
+    var b = document.getElementById("num2").value;
+    switch(choice) {
+        case "Addition":
+        result = parseInt(a)+parseInt(b);
+        break;
+        
+        case "Divide":
+        result = parseInt(a)/parseInt(b);
+        break;
+        
+        case "Subtract":
+        result = parseInt(a)-parseInt(b);
+        break;
+        
+        case "Modulo":
+        result = parseInt(a)%parseInt(b);
+        break;
+        
+        case "Multiply":
+        result = parseInt(a)*parseInt(b);
+        break;
+    }
+    document.getElementById("out").innerHTML = result;
+}
+
+
+
