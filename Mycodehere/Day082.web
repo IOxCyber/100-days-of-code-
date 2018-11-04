@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>diwali story</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <style>
+    #cndl-flame {
+    border-radius: 35px 0px 35px 30px;
+    border:3px ridge rgb(250, 142, 110);
+    background: red;
+    padding: 30px 30px 20px 0px; 
+    width: 5px;
+    height: auto; 
+    animation-name: example1;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+#cndl-base {
+
+    width: 25px;
+    height: 200px;
+    border-radius: 6px 6px 0px 0px;
+    background-color: rgb(235, 111, 11);
+    animation-name: example2;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    border:3px ridge rgb(186, 238, 15);
+}
+
+@keyframes example1 {
+    from {background-color: rgb(247, 160, 46);}
+    to {background-color: rgb(255, 94, 0);}
+}
+
+@keyframes example2 {
+    from {background-color: rgb(212, 209, 0);}
+    to {background-color: rgb(15, 214, 91);}
+ }
+ #pos{
+     padding-top:5px;
+ }
+ 
+ #pos2{
+    position:absolute;
+    left:95%;
+    bottom:119px;
+ }
+body{
+    background:radial-gradient(red,yellow,green);
+    
+
+}
+ 
+    </style>
+
+<div id="pos1">
+<div id="cndl-flame"></div>
+<div id="cndl-base"></div>
+<span><br></span>
+<div id="cndl-flame"></div>
+<div id="cndl-base"></div>
+
+<div id="pos2" >
+<div id="cndl-flame"></div>
+<div id="cndl-base"></div>
+<span><br></span>
+<div id="cndl-flame"></div>
+<div id="cndl-base"></div>
+</div>
+
+
+
+
+</body>
+</html>
